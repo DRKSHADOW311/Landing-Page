@@ -1,0 +1,8 @@
+body {
+    padding: 0 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
