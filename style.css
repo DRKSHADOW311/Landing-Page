@@ -1,8 +1,27 @@
 body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container {
+    background-color: #1F2937;
     padding: 0 100px;
 }
 
-header {
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
     display: flex;
-    justify-content: space-between;
+    list-style: none;
 }
