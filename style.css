@@ -7,6 +7,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .top-container {
@@ -17,6 +18,8 @@ body {
 h3 {
     font-size: 24px;
     color: #F9FAF8;
+    display: flex;
+    flex-shrink: 0;
 }
 
 .header-links {
@@ -24,4 +27,48 @@ h3 {
     color: #E5E7EB;
     display: flex;
     list-style: none;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.text-hero {
+    width: 450px;
+    height: 175px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.second-hero {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 4px 0;
+}
+
+#hero-image {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 7px;
+    padding: 5px 20px;
 }
