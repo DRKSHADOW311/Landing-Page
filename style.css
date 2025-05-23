@@ -42,6 +42,7 @@ h3 {
 .text-hero {
     width: 450px;
     height: 175px;
+    flex-shrink: 0;
 }
 
 h1 {
@@ -71,4 +72,69 @@ h1 {
     color: white;
     border-radius: 7px;
     padding: 5px 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+    padding-bottom: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    text-align: center;
+}
+
+.card-img {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #3882F6;
+    border-radius: 12px;
+}
+
+.card-text {
+    margin: 5px 0;
+    color: grey;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-div {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
 }
